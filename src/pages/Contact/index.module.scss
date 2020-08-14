@@ -1,0 +1,33 @@
+.form{
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: stretch;
+    align-content: stretch;
+    background-color: #aed9e0;
+    height: 67%;
+    width: 40%;
+    border: 3px solid #201866;
+    text-align: center;
+}
+
+.button{
+    width: 30%;
+    margin: 2% 0 0 0;
+}
+
+input{
+    margin: 0 0 2% 0;
+    width: 50%;
+}
+
+textarea{
+    width: 50%;
+    height: 15vh;
+}
+
+.section{
+    display: flex;
+    justify-content: center;
+}

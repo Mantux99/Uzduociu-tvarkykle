@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.form{
+  width: 25%;
+  margin-right: 52px;
+}
+
+.tableContainerHeader{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.inputGroup{
+  margin-bottom: 1rem;
+  label{
+    display: block;
+    margin-bottom: .25rem;
+  }
+}
+.tableContainer{
+  width: 70%;
+}
+
+.mytable{
+  background-color: #aed9e0;
+  height: 67%;
+  border: 3px solid #201866;
+  text-align: center;
+}
+
+.table {
+  width: 100%;
+  background:#c9c9c9;
+  text-align: left;
+  thead{
+    tr>th{
+      background: rgb(221, 156, 156);
+      color: white;
+    }
+  }
+  tr {
+    th,
+    td {
+      background: rgb(247, 247, 247);
+      padding: 0.5rem;
+      .spanSpaceBetween{
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+  }
+}
